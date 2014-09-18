@@ -1,0 +1,2 @@
+db2: db2.c node.h node.c list.c list.h nodestruct.h nodestruct.c readline.h readline.c
+	gcc -o db2 -std=c99 -Wall -ggdb db2.c node.c list.c nodestruct.c readline.c node.h list.h nodestruct.h readline.h
